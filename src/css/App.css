@@ -1,0 +1,104 @@
+/***** Font Styles *****/
+h1 {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+h1, h2, h3 {
+  font-family: 'Kreon', serif;
+}
+/***** end font styles *****/
+
+
+main {
+  padding-bottom: 60px;
+}
+
+/***** Navbar *****/
+.bg-hmlss-blue {
+  background: #2828FC;
+}
+
+.bg-hmlss-blue a {
+  color: #ffe803; /* #ffe803 turbo */
+}
+
+.bg-hmlss-blue a:hover {
+  color: #fff;
+}
+
+.bg-hmlss-blue a.active {
+  color: #fff;
+}
+
+.bg-hmlss-blue .dropdown-menu {
+  background: #5353FC;
+  color: #ffe803;
+}
+
+.bg-hmlss-blue .dropdown-menu a {
+  color: #fff;
+}
+
+.bg-hmlss-blue .dropdown-menu a:hover {
+  color: #2828FC;
+}
+
+.navbar-text {
+  color: #fff;
+}
+
+/* .navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} */
+
+/***** Jumbotron *****/
+.btn-jumbo {
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.btn-jumbo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-jumbo:hover {
+  background: #2828FC;
+  border-color: #2828FC;
+}
+
+.btn-jumbo:hover a {
+  color: #fff;
+}
+
+
+
+/***** Resources *****/
+.btn-resource {
+  background: #ffc003;
+  margin: 2px;
+}
+
+.btn-resource:hover {
+  background: #ff9303;
+}
+
+
+div.hero {
+  background: url('http://phoenixjaymes.com/lab/r-bs-homeless/img/homeless-man-hss-no-evil_1280.jpg') center / cover no-repeat #fff;
+  color: #fff;
+}

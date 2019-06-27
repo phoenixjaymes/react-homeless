@@ -1,0 +1,24 @@
+.coverage ul {
+  text-align: center;
+}
+
+.coverage ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+
+.btn-coverage {
+  background: #ffc003;
+  margin: 2px;
+  width: 140px;
+}
+
+.btn-coverage:hover {
+  background: #ff9303;
+}
+
+.btn-coverage a {
+  color: #000;
+  text-decoration: none;
+}

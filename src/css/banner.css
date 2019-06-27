@@ -1,0 +1,84 @@
+/* Content Banner Animation */
+.banner-content {
+  position: relative;
+  max-width: 500px;
+  min-height: 60px;
+  width: 100%;
+  color: #ffc003;
+  background: #2828fc;
+  margin: 20px auto;
+}
+.banner-content li {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  font-family: 'Kreon', serif;
+  width: 100%;
+  height: 60px;
+  list-style: none;
+  opacity: 0;
+  text-align: center;
+  font-family: 'kreonbold', serif;
+}
+.banner-content li.oneLine {
+  font-size: 30px;
+  line-height: 60px;
+}
+.banner-content li.twoLine {
+  font-size: 15px;
+  padding-top: 6px;
+  line-height: 24px;
+}
+
+.ani1 {
+  animation-name: 'fadeIn-fadeOut';
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+}
+
+.ani2 {
+  animation-name: 'fadeIn-fadeOut';
+  animation-duration: 4s;
+  animation-delay: 4s;
+}
+
+.ani3 {
+  animation-name: 'fadeIn-fadeOut';
+  animation-duration: 4s;
+  animation-delay: 8s;
+}
+
+.ani4 {
+  animation-name: 'fadeIn-fadeOut';
+  animation-duration: 4s;
+  animation-delay: 12s;
+}
+
+.ani5 {
+  animation-name: 'fadeIn-fadeOut';
+  animation-duration: 4s;
+  animation-delay: 16s;
+}
+
+@keyframes fadeIn-fadeOut {
+  from {
+    opacity: 0;
+  }
+  25%, 75% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 1025px) {
+  .banner-content {
+    margin: 30px auto;
+  }
+}
